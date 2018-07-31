@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		92200D2221109E5E0072CDD9 /* ChibaStudioCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 92200D2021109E5E0072CDD9 /* ChibaStudioCoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92200D2A21109E7D0072CDD9 /* UIImage+ChibaStudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92200D2921109E7D0072CDD9 /* UIImage+ChibaStudio.swift */; };
+		92200D2C21109EED0072CDD9 /* UIColor+ChibaStudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92200D2B21109EED0072CDD9 /* UIColor+ChibaStudio.swift */; };
+		92200D2E21109F430072CDD9 /* Date+ChibaStudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92200D2D21109F420072CDD9 /* Date+ChibaStudio.swift */; };
+		92200D3021109FEC0072CDD9 /* Array+ChibaStudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92200D2F21109FEC0072CDD9 /* Array+ChibaStudio.swift */; };
+		92200D322110A0180072CDD9 /* UIDevice+ChibaStudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92200D312110A0180072CDD9 /* UIDevice+ChibaStudio.swift */; };
+		92200D352110A1EE0072CDD9 /* UIScreen+ChibaStudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92200D342110A1EE0072CDD9 /* UIScreen+ChibaStudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		92200D1D21109E5E0072CDD9 /* ChibaStudioCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChibaStudioCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92200D2021109E5E0072CDD9 /* ChibaStudioCoreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChibaStudioCoreKit.h; sourceTree = "<group>"; };
 		92200D2121109E5E0072CDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92200D2921109E7D0072CDD9 /* UIImage+ChibaStudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ChibaStudio.swift"; sourceTree = "<group>"; };
+		92200D2B21109EED0072CDD9 /* UIColor+ChibaStudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ChibaStudio.swift"; sourceTree = "<group>"; };
+		92200D2D21109F420072CDD9 /* Date+ChibaStudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ChibaStudio.swift"; sourceTree = "<group>"; };
+		92200D2F21109FEC0072CDD9 /* Array+ChibaStudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+ChibaStudio.swift"; sourceTree = "<group>"; };
+		92200D312110A0180072CDD9 /* UIDevice+ChibaStudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+ChibaStudio.swift"; sourceTree = "<group>"; };
+		92200D342110A1EE0072CDD9 /* UIScreen+ChibaStudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+ChibaStudio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +58,24 @@
 		92200D1F21109E5E0072CDD9 /* ChibaStudioCoreKit */ = {
 			isa = PBXGroup;
 			children = (
+				92200D2821109E660072CDD9 /* Extension */,
 				92200D2021109E5E0072CDD9 /* ChibaStudioCoreKit.h */,
 				92200D2121109E5E0072CDD9 /* Info.plist */,
 			);
 			path = ChibaStudioCoreKit;
+			sourceTree = "<group>";
+		};
+		92200D2821109E660072CDD9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				92200D2921109E7D0072CDD9 /* UIImage+ChibaStudio.swift */,
+				92200D2B21109EED0072CDD9 /* UIColor+ChibaStudio.swift */,
+				92200D2D21109F420072CDD9 /* Date+ChibaStudio.swift */,
+				92200D2F21109FEC0072CDD9 /* Array+ChibaStudio.swift */,
+				92200D312110A0180072CDD9 /* UIDevice+ChibaStudio.swift */,
+				92200D342110A1EE0072CDD9 /* UIScreen+ChibaStudio.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +121,7 @@
 				TargetAttributes = {
 					92200D1C21109E5E0072CDD9 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -130,6 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92200D2A21109E7D0072CDD9 /* UIImage+ChibaStudio.swift in Sources */,
+				92200D2E21109F430072CDD9 /* Date+ChibaStudio.swift in Sources */,
+				92200D2C21109EED0072CDD9 /* UIColor+ChibaStudio.swift in Sources */,
+				92200D352110A1EE0072CDD9 /* UIScreen+ChibaStudio.swift in Sources */,
+				92200D322110A0180072CDD9 /* UIDevice+ChibaStudio.swift in Sources */,
+				92200D3021109FEC0072CDD9 /* Array+ChibaStudio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +292,7 @@
 		92200D2621109E5E0072CDD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -275,6 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = chibafactory.ChibaStudioCoreKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,6 +318,7 @@
 		92200D2721109E5E0072CDD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
